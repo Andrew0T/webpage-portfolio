@@ -294,7 +294,7 @@ button:hover, button:focus, .button:hover, .button:focus {
   -webkit-animation: 30s cloud-move infinite alternate linear;
           animation: 30s cloud-move infinite alternate linear;
   }
-  
+
 @-webkit-keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(446px, 48px);
@@ -305,7 +305,7 @@ button:hover, button:focus, .button:hover, .button:focus {
             transform: translate(100px, 48px);
   }
 }
-  
+
 @keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(446px, 48px);

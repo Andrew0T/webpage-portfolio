@@ -229,7 +229,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .cloud-front {
   animation: 30s cloud-move infinite alternate linear;
   }
-  
+
 @keyframes cloud-move-reverse {
   from {
     transform: translate(446px, 48px);
