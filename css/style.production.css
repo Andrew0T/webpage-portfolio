@@ -15,13 +15,14 @@
   --sunstart-color: #edc655;
   --sunmiddle-color: #fcffad;
   --sunend-color: #f76414;
-  --2ndbutton-color: #00aa00;
+  --button2-color: #00aa00;
   --text-color: #000000;
 }
 
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  margin: auto 10px;
 }
 
 body {
@@ -192,7 +193,7 @@ button {
 }
 
 .button__secondary {
-  background-color: var(--2ndbutton-color);
+  background-color: var(--button2-color);
   color: var(--text-color);
 }
 
