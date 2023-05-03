@@ -122,6 +122,12 @@ main {
   border-radius: 50%;
 }
 
+.project_screenshot {
+  align-content: center;
+  width: auto;
+  height: auto;
+}
+
 .table {
   text-align: center;
   display: inline-block;
