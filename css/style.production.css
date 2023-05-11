@@ -8,15 +8,14 @@
 :root {
   --background-color: #77ddff;
   --font-color: #006600;
-  --visited-color: #000000;
-  --hover-color: #ffffff;
-  --active-color: #00ff00a6;
+  --hover-color: #ffff00;
+  --active-color: #0e990e;
   --gridbackground-color: #f0f0f08a;
   --sunstart-color: #edc655;
   --sunmiddle-color: #fcffad;
   --sunend-color: #f76414;
-  --button2-color: #00aa00;
-  --text-color: #000000;
+  --button2-color: #006600;
+  --text-color: #ffff00;
 }
 
 * {
@@ -51,10 +50,6 @@ h3 {
 
 a {
   color: var(--font-color);
-}
-
-a:visited {
-  color: var(--visited-color);
 }
 
 a:hover,
@@ -184,7 +179,7 @@ button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: var(--font-color);
+  background-color: var(--active-color);
   color: var(--text-color);
   text-decoration: none;
   padding: 10px;
@@ -209,7 +204,7 @@ button {
 
 .button_home {
   background-color: var(--active-color);
-  color: var(--font-color);
+  color: var(--hover-color);
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
