@@ -6,9 +6,9 @@
 */
 
 :root {
-  --background-color: #77ddff;
+  --background-color: #fffff9;
   --font-color: #006600;
-  --hover-color: #ffff00;
+  --hover-color: #77ddff;
   --active-color: #0e990e;
   --gridbackground-color: #f0f0f08a;
   --sunstart-color: #edc655;
@@ -34,6 +34,7 @@ body {
 }
 
 h1 {
+  text-align: center;
   font-size: 30px;
   font-weight: 700;
 }
@@ -181,30 +182,6 @@ button {
   font-family: inherit;
   background-color: var(--active-color);
   color: var(--text-color);
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
-  transition: 0.2s opacity;
-}
-
-.button__secondary {
-  background-color: var(--button2-color);
-  color: var(--text-color);
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  -webkit-transition: 0.2s opacity;
-  -o-transition: 0.2s opacity;
-  transition: 0.2s opacity;
-}
-
-.button_home {
-  background-color: var(--active-color);
-  color: var(--hover-color);
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
